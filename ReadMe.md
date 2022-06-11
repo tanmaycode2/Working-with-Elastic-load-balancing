@@ -7,7 +7,7 @@ First, you will launch a pair of instances, bootstrap them to install web server
 
 The following diagram provides a high-level overview of the architecture you will implement in this exercise.
 
-diagram
+
 
 Topics covered
 This lab will take you through:
@@ -19,7 +19,7 @@ Viewing Amazon CloudWatch metrics for the load balancer.
 Technical knowledge prerequisites
 To successfully complete this lab, you should be familiar with the AWS Management Console.
 
-Elastic Load Balancing
+**Elastic Load Balancing**
 
 Elastic Load Balancing automatically distributes incoming application traffic across multiple Amazon EC2 instances. It enables you to achieve greater levels of fault tolerance in your applications, seamlessly providing the required amount of load balancing capacity needed to distribute application traffic.
 
@@ -33,37 +33,8 @@ Elastic Load Balancing provides integrated certificate management and SSL decryp
 
 This lab guide explains basic concepts of Elastic Load Balancing in a step-by-step fashion. However, it can only give a brief overview of Elastic Load Balancing concepts. For further information, see http://aws.amazon.com/elasticloadbalancing/.
 
-Start Lab
-At the top of your screen, launch your lab by choosing Start Lab
-This starts the process of provisioning your lab resources. An estimated amount of time to provision your lab resources is displayed. You must wait for your resources to be provisioned before continuing.
+**Start Lab**
 
- If you are prompted for a token, use the one distributed to you (or credits you have purchased).
-
-Open your lab by choosing Open Console
-This automatically logs you in to the AWS Management Console.
-
- Do not change the Region unless instructed.
-
-Common Login Errors
-Error: Federated login credentials
-
-
-
-If you see this message:
-
-Close the browser tab to return to your initial lab window
-Wait a few seconds
-Choose Open Console again
-You should now be able to access the AWS Management Console.
-
-Error: You must first log out
-
-
-
-If you see the message, You must first log out before logging into a different AWS account:
-
-Choose here
-Close your browser tab to return to your initial lab window
 Choose Open Console again
 Task 1: Launch Web Servers
 In this task, you will launch two Amazon Linux EC2 instances, with an Apache PHP web server and basic application installed on initialization. You will also demonstrate a simple example of bootstrapping instances using the Amazon EC2 metadata service.
